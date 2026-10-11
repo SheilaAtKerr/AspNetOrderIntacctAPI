@@ -1,0 +1,21 @@
+{
+  "orders": [
+    {
+      "orderNumber": "ORD-005",
+      "orderDate": "2024-01-19",
+      "customerName": "Premium Retail Co",
+      "customerId": "CUST-005",
+      "totalAmount": 4500.00,
+      "status": "Pending",
+      "items": [
+        {
+          "itemId": "SKU-007",
+          "itemDescription": "Retail Package",
+          "quantity": 45,
+          "unitPrice": 100.00,
+          "lineTotal": 4500.00
+        }
+      ]
+    }
+  ]
+}

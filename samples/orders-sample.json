@@ -1,0 +1,43 @@
+[
+  {
+    "orderNumber": "ORD-001",
+    "orderDate": "2024-01-15",
+    "customerName": "ACME Corporation",
+    "customerId": "CUST-001",
+    "totalAmount": 1500.50,
+    "status": "Pending",
+    "items": [
+      {
+        "itemId": "SKU-001",
+        "itemDescription": "Product A",
+        "quantity": 10,
+        "unitPrice": 100.00,
+        "lineTotal": 1000.00
+      },
+      {
+        "itemId": "SKU-002",
+        "itemDescription": "Product B",
+        "quantity": 5,
+        "unitPrice": 100.10,
+        "lineTotal": 500.50
+      }
+    ]
+  },
+  {
+    "orderNumber": "ORD-002",
+    "orderDate": "2024-01-16",
+    "customerName": "Tech Solutions Inc",
+    "customerId": "CUST-002",
+    "totalAmount": 2500.00,
+    "status": "Pending",
+    "items": [
+      {
+        "itemId": "SKU-003",
+        "itemDescription": "Service Package",
+        "quantity": 1,
+        "unitPrice": 2500.00,
+        "lineTotal": 2500.00
+      }
+    ]
+  }
+]
